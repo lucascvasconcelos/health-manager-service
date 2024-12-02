@@ -71,11 +71,11 @@ src/main/java/com/healthmanagerservice/health-manager-service
 ```
 
 ## Como Rodar o Projeto
-1. Ter o Java 17 na sua máquina.
+1. Ter o Java 17 e p gradle na sua máquina.
 2. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu_usuario/seu_projeto.git
+   git clone https://github.com/lucascvasconcelos/health-manager-service.git
    ```
 
 3. Navegue até o diretório do projeto:
@@ -93,14 +93,22 @@ src/main/java/com/healthmanagerservice/health-manager-service
 5. Execute o projeto com o Gradle:
 
    ```bash
-   ./gradlew clean build
-   ```
-
-   ```bash
    ./gradlew bootRun
    ```
 
 6. aplicação estará disponível em `http://localhost:8080`.
+
+## Setup Inicial do Banco de Dados
+O projeto tem dois scripts SQL localizados em `src/main/resources/` para configurar o banco de dados ao ser iniciado:
+
+- **schema.sql**: Criacao das tabelas.
+
+- **data.sql**: Insere usuário Administrador.
+As credenciais desse usuário são:
+     - **Username:** `admin`
+     - **Senha:** `youx-group-challenger`
+
+É importante usar essas credenciais para acessar o sistema inicialmente e configurar usuários adicionais conforme necessário.
 
 ## Autenticação
 Gerar jwt:
@@ -127,6 +135,10 @@ curl --location 'http://localhost:8080/users' \
 ```
 
 ### Criar Usuário
+
+- **ROLE_ADMIN**: Acesso total.
+- **ROLE_NURSE**: Acesso aos pacientes.
+- **ROLE_DOCTOR**: Acesso a usuarios e pacientes.
 
 ```bash
 curl --location 'http://localhost:8080/users' \
