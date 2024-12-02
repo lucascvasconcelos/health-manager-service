@@ -5,6 +5,10 @@ Sistema para gerenciamento de pacientes
 - **Java 17** 
 - **Spring Boot 3.4**
 
+## Nomenclaturas
+No projeto, as nomenclaturas de classes, variáveis e métodos são todas realizadas em inglês, 
+como por exemplo: **Doctor**, **Nurse**, **Patient**
+
 ## Arquitetura
 Este projeto usa a **Clean Architecture** para organizacao de código e ajudar a separar responsabilidades 
 e não depender de uma tecnologia específica, dividindo tudo em camadas bem definidas.
