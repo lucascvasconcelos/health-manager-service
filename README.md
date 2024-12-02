@@ -214,6 +214,6 @@ curl --location --request DELETE 'http://localhost:8080/patients/161' \
 
 - [Documentação do Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 - [Documentação do Java 17](https://docs.oracle.com/en/java/javase/17/)
-- [Repositório Oficial](https://github.com/seu_usuario/seu_projeto)
+- [Repositório Oficial]([https://github.com/seu_usuario/seu_projeto](https://github.com/lucascvasconcelos/health-manager-service))
 ---
 
