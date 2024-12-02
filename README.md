@@ -14,7 +14,7 @@ como por exemplo: **Doctor**, **Nurse**, **Patient**
 Este projeto usa a **Clean Architecture** para organizacao de código e ajudar a separar responsabilidades 
 e não depender de uma tecnologia específica, dividindo tudo em camadas bem definidas.
 
-### Estrutura do Projeto
+### Exemplo de Estrutura do Projeto
 ```plaintext
 src/main/java/com/healthmanagerservice/health-manager-service
 ├── application
