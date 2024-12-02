@@ -54,7 +54,6 @@ public class CryptoUtil {
         GCMParameterSpec parameterSpec = new GCMParameterSpec(GCM_TAG_LENGTH * Byte.SIZE, iv);
         cipher.init(Cipher.DECRYPT_MODE, secretKeySpec, parameterSpec);
 
-        // Usando o método doFinal diretamente para descriptografar:
         byte[] decryptedText = cipher.doFinal(encryptedText);
         return new String(decryptedText);
     }

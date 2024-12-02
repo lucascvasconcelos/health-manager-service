@@ -210,6 +210,9 @@ curl --location --request DELETE 'http://localhost:8080/patients/161' \
 ## Importante
 É necessário que todas as requisições para os endpoints `/users` E `/patients`,  incluam o token JWT no cabeçalho `Authorization` após fazer login. Este token é necessário para validar e autorizar a operação solicitada.
 
+## Criptografia
+Optei por utilizar algoritmo de criptografia AES  porque é bastante utilizado  em aplicações que  trabalham com  dados sensível e é bastante seguro.
+
 ## Links Úteis
 
 - [Documentação do Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/)
