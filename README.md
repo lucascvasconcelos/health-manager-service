@@ -4,6 +4,7 @@ Sistema para gerenciamento de pacientes
 ## Tecnologias Utilizadas
 - **Java 17** 
 - **Spring Boot 3.4**
+- **Banco de dados H2 em memoria.4**
 
 ## Nomenclaturas
 No projeto, as nomenclaturas de classes, variáveis e métodos são todas realizadas em inglês, 
