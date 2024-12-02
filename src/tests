@@ -1,0 +1,24 @@
+{
+    "username": "John Doe",
+    "password": "securePassword123"
+}
+
+{
+    "username": "John Doe",
+    "password": "securePassword123"
+}
+
+{
+    "name": "lucas",
+    "cpf": "10278029401",
+    "password": "123",
+    "role": "ROLE_NURSE"
+}
+
+{
+    "id": 741,
+    "name": "Fabricia",
+    "cpf": "10278029402",
+    "role": "ROLE_DOCTOR",
+    "password": "123",
+}
