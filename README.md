@@ -103,7 +103,7 @@ src/main/java/com/healthmanagerservice/health-manager-service
 6. aplicação estará disponível em `http://localhost:8080`.
 
 ## Setup Inicial do Banco de Dados
-O projeto tem dois scripts SQL localizados em `src/main/resources/` para configurar o banco de dados ao ser iniciado:
+O projeto tem dois scripts SQL localizados em `src/main/resources/` para configurar o banco de dados e serao executados automaticamente ao ser iniciado:
 
 - **schema.sql**: Criacao das tabelas.
 
